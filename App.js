@@ -3,9 +3,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { useReducer, useState } from 'react';
 
 import { 
-  StyleSheet, View, Image,
-  Text, FlatList, Switch,
-  ScrollView
+  StyleSheet, View, Image, Text, Switch
 } from 'react-native';
 import { 
   translate, portuguese as initialText
